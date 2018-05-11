@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.osw.quizmaker.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:textSize="12pt"/>
+    <Button
+        android:id="@+id/createMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_createMP"/>
+    <Button
+        android:id="@+id/createTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_createTF"/>
+    <Button
+        android:id="@+id/createNP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_createNP"/>
+    <Button
+        android:id="@+id/createFromXml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_createFromXml"/>
+    <Button
+        android:id="@+id/questionList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_questionList"/>
+    <Button
+        android:id="@+id/viewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_viewInfo"/>
+
+</LinearLayout>
